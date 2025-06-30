@@ -1,0 +1,54 @@
+{
+    "name": "ClickToMove",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "f68241fe-03ad-4b79-a231-30cc7cc907da",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "724c6aca-9adf-434a-89a4-389bab40861a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Item",
+                    "type": "Button",
+                    "id": "18595fe0-bf7c-44e8-a6a0-c9b7b849f456",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d8e53bc6-7ade-41ed-92c5-44906d8325aa",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f235b89c-7520-4eaa-81e8-a76308f9ea0d",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Item",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
